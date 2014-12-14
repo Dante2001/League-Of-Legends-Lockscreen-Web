@@ -1,0 +1,214 @@
+﻿/*
+	Fotologue4T by 4Templates | http://www.4templates.com/free/ | @4templates
+	Licensed under the Creative Commons Attribution 3.0 License
+*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body
+{
+	background: url('images/bg1.jpg');
+	font-size: 12pt;
+}
+
+a
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.gallery
+{
+	margin: 0 0 25px 0;
+}
+
+.gallery ul
+{
+	list-style: none;
+}
+
+.gallery ul li
+{
+	position: relative;
+	display: inline-block;
+	background: url('images/bg4.png');
+	width: 280px;
+	height: 230px;
+	margin: 0 0 25px 25px;
+	box-shadow: inset 0px 0px 2px 1px #ffffff, 0px 2px 4px 2px rgba(98, 67, 36, 0.5);
+}
+
+.gallery ul li.first
+{
+	margin-left: 0;
+}
+
+.gallery ul li a
+{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.box
+{
+	position: relative;
+	background: url('images/bg4.png');
+	box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.box h2
+{
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: 0px 2px 1px rgba(0,0,0,0.6);
+	text-align: center;
+	background: url('images/bg5.jpg');
+	width: 900px;
+	height: 80px;
+	letter-spacing: 6px;
+	font-weight: normal;
+	line-height: 80px;
+	font-size: 1.2em;
+}
+
+.box .inside
+{
+	position: relative;
+	z-index: 1;
+	padding: 40px 40px 50px 40px;
+	font-family: Arvo, serif;
+	font-size: 1.1em;
+	color: #846244;
+	text-shadow: 0px 2px 0px #000000;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 2em;
+	box-shadow: inset 0px 0px 6px 1px #000000;
+}
+
+.box .inside .content
+{
+	position: relative;
+	z-index: 1;
+}
+
+.box .shadow
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url('images/bg6.png') bottom left repeat-x;
+	width: 100%;
+	height: 143px;
+	z-index: 0;
+}
+
+.poptrox-popup
+{
+	background: url('images/bg4.png');
+	padding: 20px;
+	box-shadow: inset 0px 0px 2px 1px #ffffff, 0px 2px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.poptrox-popup .loader
+{
+	display: block;
+	background: url('images/loader.gif') top center no-repeat;
+	width: 100px;
+	margin: 40px auto;
+}
+
+.poptrox-popup .closer
+{
+	display: block;
+	width: 50px;
+	height: 50px;
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	background: url('images/bg5.jpg');
+	position: absolute;
+	top: 0;
+	right: -50px;
+	box-shadow: 3px 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+#shadow1
+{
+	background: url('images/bg2.png') top left repeat-x;
+	width: 100%;
+	height: 480px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#shadow2
+{
+	background: url('images/bg3.png') top left repeat-x;
+	width: 100%;
+	height: 236px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#wrapper
+{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+#logo
+{
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: 0px 2px 1px rgba(68, 37, 6, 0.8);
+	text-align: center;
+	letter-spacing: 6px;
+	padding: 100px 0 70px 0;
+}
+
+#logo h1
+{
+	font-weight: normal;
+	margin: 0 0 15px 0;
+}
+
+#logo span
+{
+	color: #ffffff;
+}
+
+#footer
+{
+	color: #000000;
+	text-shadow: 0px 1px 0px rgba(0, 255, 255, 0.6);
+	font-family: Arvo, serif;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 50px 0 120px 0;
+}
+
+#footer a
+{
+	color: #5f3f20;
+}
